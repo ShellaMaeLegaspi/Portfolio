@@ -1,0 +1,173 @@
+@font-face{
+    font-family: myFont;
+    src: url(ArtifexCF.ttf.ttf);
+}
+
+
+html,body{
+    color:#57405C;
+    height: 100%;
+}
+
+
+#particles-js{
+    height: 100%;
+}
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+canvas{
+    position: absolute;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#250821;
+    font-family: myFont;
+    color: white;
+}
+h1{
+    padding-bottom: 25px;
+    -webkit-text-stroke-color: rgb(174, 143, 143);
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(199, 188, 188);
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #EE7DDC;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+.home-content {
+    text-align: center;
+}
+.image-wrapper {
+    margin-top: -50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center img{
+    border-radius: 70%;
+    -webkit-backgound-size: cover;
+    background-size: cover;
+    height: 550px;
+    width: 600px;
+    box-shadow: 0 20px 5px 5px rgb(174, 143, 143);
+    animation: animate 5s ease-in-out infinite;
+    transition: all is ease-in-out;
+}
+
+@keyframes animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+ 
+
+.home-content1{
+    background-color:#140112dd;
+    border-radius: 2%;
+    border: 1px solid #a177ab;
+    box-shadow: 0 0 20px #EE7DDC;
+    width: 600px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 100px
+}
+
+.home-content h1{
+    font-size: 4rem;
+    font-weight: 1000;
+}
+
+.home-content h3{
+    font-size: 3rem;
+}
+
+.home-content p{
+    font-size: 1.5rem;
+}
+
+.btn-box{
+    color:#57405C; 
+}
+.btn-outline-dark {
+    color: rgb(199, 188, 188);
+    border-color: #25272a;
+}
+header{
+    background: no-repeat center center;
+    background-size: color;
+    color: white;
+}
+
+.color-overlay{
+    background-color: rgba(0,0,0,0);
+    min-height: 60vh;
+}
+
+
+
+
+.card{
+    background-color: #140112fc;
+    padding: 5px;
+    border: 1px solid #a177ab;
+    box-shadow: 0 0 20px #EE7DDC;
+    padding-bottom: -10px;
+}
+.card-body {
+    color: rgb(199, 188, 188);
+    font-weight: 500;
+}
+
+.col-12  {
+    padding-top: 20px;
+}
+
+
+.carpe-diem{
+    font-family: sans-serif;
+    font-size: 12vw;
+    letter-spacing: 3px;
+    opacity: .5;
+}
+
+.singleCol{
+    max-width: 750px;
+}
+
+
+footer{
+    background-color: #140112dd;
+    height: 60px;
+}
+footer a{
+    color: white;
+}
+footer a:hover {
+    color: black;
+}
